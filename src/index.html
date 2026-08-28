@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cacu</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="min-h-screen bg-[#07070a] text-white flex items-center justify-center p-3 sm:p-6 font-['Inter',sans-serif]">
+
+    <div class="w-full .max-w-[1050px] .rounded-[24px] border border-white/10 bg-[#0c0d14] p-6 shadow-2xl">
+        
+    
+        <div data-include="../feature/header.html"></div>
+
+        <main class="grid gap-6 pt-6 lg:grid-cols-[1.2fr_0.8fr]">
+            <div data-include="../feature/calcu.html"></div>
+            <div data-include="../feature/history.html"></div>
+        </main>
+        <div data-include="../feature/footer.html"></div>
+
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>
