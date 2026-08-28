@@ -1,0 +1,42 @@
+<section class="flex flex-col gap-4">
+    <div class="flex h-[110px] flex-col justify-between rounded-2xl border border-white/5 bg-[#090a0f] p-5">
+        <div id="expressionDisplay" class="text-sm font-medium text-zinc-500 tracking-wide h-5 overflow-x-auto whitespace-nowrap [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"></div>
+        <div id="resultDisplay" class="text-right text-5xl font-light tracking-tight text-white overflow-x-auto whitespace-nowrap [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">0</div>
+    </div>
+
+    <div class="grid grid-cols-4 gap-2.5">
+        <button type="button" onclick="calculateTrig('sin')" class="calc-btn-op text-sm">sin</button>
+        <button type="button" onclick="calculateTrig('cos')" class="calc-btn-op text-sm">cos</button>
+        <button type="button" onclick="calculateTrig('tan')" class="calc-btn-op text-sm">tan</button>
+        <button type="button" onclick="inputOperator('%')" class="calc-btn-op text-sm">mod</button>
+
+        <button type="button" onclick="clearCalculator()" class="calc-btn font-semibold text-violet-400">AC</button>
+        <button type="button" onclick="toggleSign()" class="calc-btn text-white">+/−</button>
+        <button type="button" onclick="inputPercentage()" class="calc-btn text-white">%</button>
+        <button type="button" onclick="deleteNumber()" class="calc-btn text-violet-400 flex items-center justify-center">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2M3 12l6.414 6.414a2 2 0 001.414.586H19a2 2 0 002-2V7a2 2 0 00-2-2h-9.172a2 2 0 00-1.414.586L3 12z"/>
+            </svg>
+        </button>
+
+        <button type="button" onclick="inputNumber('7')" class="calc-btn text-white">7</button>
+        <button type="button" onclick="inputNumber('8')" class="calc-btn text-white">8</button>
+        <button type="button" onclick="inputNumber('9')" class="calc-btn text-white">9</button>
+        <button type="button" onclick="inputOperator('/')" class="calc-btn-op">÷</button>
+
+        <button type="button" onclick="inputNumber('4')" class="calc-btn text-white">4</button>
+        <button type="button" onclick="inputNumber('5')" class="calc-btn text-white">5</button>
+        <button type="button" onclick="inputNumber('6')" class="calc-btn text-white">6</button>
+        <button type="button" onclick="inputOperator('*')" class="calc-btn-op">×</button>
+
+        <button type="button" onclick="inputNumber('1')" class="calc-btn text-white">1</button>
+        <button type="button" onclick="inputNumber('2')" class="calc-btn text-white">2</button>
+        <button type="button" onclick="inputNumber('3')" class="calc-btn text-white">3</button>
+        <button type="button" onclick="inputOperator('-')" class="calc-btn-op">−</button>
+
+        <button type="button" onclick="inputNumber('0')" class="calc-btn text-white">0</button>
+        <button type="button" onclick="inputNumber('.')" class="calc-btn text-white">.</button>
+        <button type="button" onclick="inputOperator('+')" class="calc-btn-op">+</button>
+        <button type="button" onclick="calculateResult()" class="calc-btn-equals">=</button>
+    </div>
+</section>

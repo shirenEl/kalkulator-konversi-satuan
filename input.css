@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@utility calc-btn {
+  @apply h-14 rounded-xl border border-white/5 bg-[#12131c] text-xl transition hover:bg-[#1a1b28] hover:border-white/10 active:scale-95;
+}
+
+@utility calc-btn-op {
+  @apply h-14 rounded-xl border border-violet-500/20 bg-violet-950/40 text-xl text-violet-300 transition hover:bg-violet-900/50 hover:border-violet-500/40 active:scale-95;
+}
+
+@utility calc-btn-equals {
+  @apply h-14 rounded-xl border border-violet-400/50 bg-gradient-to-r from-violet-600 to-fuchsia-500 text-2xl text-white shadow-lg shadow-violet-600/30 transition hover:brightness-110 active:scale-95;
+}
