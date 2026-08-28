@@ -6,7 +6,6 @@ let currentInput = '0';
 let expression = '';
 let shouldResetInput = false;
 
-// Memuat komponen HTML secara otomatis saat halaman pertama kali dibuka
 document.addEventListener("DOMContentLoaded", async () => {
     const includes = document.querySelectorAll("[data-include]");
     for (const el of includes) {
