@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
     }
 
+    // Inisialisasi elemen kalkulator setelah komponen selesai di-render
     initCalculator();
 });
 
