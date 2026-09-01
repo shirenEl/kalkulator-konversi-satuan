@@ -1,0 +1,50 @@
+Calculator konversi satuan
+
+= Deskripsi
+Calculator adalah sebuah aplikasi kalkulator sederhana yang dibuat untuk melakukan perhitungan matematika dengan mudah dan cepat.
+Aplikasi ini memiliki beberapa bagian utama, yaitu Header, Calculator, History, dan Footer.
+
+= Fitur
+
+= Calculator
+Digunakan untuk melakukan operasi matematika seperti:
+
+* Penjumlahan (+)
+* Pengurangan (-)
+* Perkalian (×)
+* Pembagian (÷)
+* Menghapus angka atau perhitungan
+* Menampilkan hasil perhitungan
+
+= History
+Menampilkan riwayat perhitungan yang telah dilakukan oleh pengguna sehingga pengguna dapat melihat kembali perhitungan sebelumnya.
+
+= Header
+Bagian atas aplikasi yang berisi nama atau judul aplikasi Calculator konversi satuan.
+
+= Footer
+Bagian bawah aplikasi yang berisi informasi tambahan atau copyright.
+
+= Bahasa Pemograman yang di gunakan
+* HTML
+* CSS
+* JavaScript
+* Tailwind CSS
+
+= Cara Menjalankan
+1. Clone repository dari GitHub.
+2. Buka folder project.
+3. Buka file `index.html` menggunakan browser.
+4. Calculator siap digunakan.
+
+Anggota
+* Shiren
+* Abrisam
+* sitisarah
+* bina
+* abiyyu
+
+= Kesimpulan
+Project Calculator dibuat sebagai aplikasi sederhana untuk membantu melakukan perhitungan matematika sekaligus menerapkan penggunaan
+HTML, CSS, JavaScript, dan Tailwind CSS dalam pembuatan aplikasi web.
+
