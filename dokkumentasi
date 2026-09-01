@@ -1,11 +1,15 @@
 Calculator konversi satuan
 
 = Deskripsi
-Calculator adalah sebuah aplikasi kalkulator sederhana yang dibuat untuk melakukan perhitungan matematika dengan mudah dan cepat.
-Aplikasi ini memiliki beberapa bagian utama, yaitu Header, Calculator, History, dan Footer.
+Kalkulator Konversi Satuan adalah aplikasi yang digunakan untuk membantu pengguna melakukan konversi berbagai
+macam satuan dengan mudah dan cepat. Pengguna dapat memasukkan nilai, memilih satuan awal dan satuan tujuan,
+kemudian aplikasi akan menampilkan hasil konversinya.
+
+= Tujuan
+Project ini dibuat untuk menerapkan penggunaan HTML, CSS, JavaScript, dan Tailwind CSS dalam membuat
+aplikasi web yang dapat melakukan konversi satuan serta menyimpan dan menampilkan riwayat konversi.
 
 = Fitur
-
 = Calculator
 Digunakan untuk melakukan operasi matematika seperti:
 
@@ -13,18 +17,19 @@ Digunakan untuk melakukan operasi matematika seperti:
 * Pengurangan (-)
 * Perkalian (×)
 * Pembagian (÷)
+* Sin Kos Tan
 * Menghapus angka atau perhitungan
 * Menampilkan hasil perhitungan
-* Sin Kos Tan
+
 
 = History
-Menampilkan riwayat perhitungan yang telah dilakukan oleh pengguna sehingga pengguna dapat melihat kembali perhitungan sebelumnya.
+Menampilkan riwayat konversi yang telah dilakukan oleh pengguna. Dengan fitur ini, pengguna dapat melihat kembali hasil konversi sebelumnya.
 
 = Header
-Bagian atas aplikasi yang berisi nama atau judul aplikasi Calculator konversi satuan.
+Bagian atas aplikasi yang menampilkan nama atau judul aplikasi serta membantu pengguna mengenali halaman yang sedang digunakan.
 
 = Footer
-Bagian bawah aplikasi yang berisi informasi tambahan atau copyright.
+Bagian bawah aplikasi yang berisi informasi tambahan mengenai aplikasi.
 
 = Bahasa Pemograman yang di gunakan
 * HTML
@@ -33,12 +38,15 @@ Bagian bawah aplikasi yang berisi informasi tambahan atau copyright.
 * Tailwind CSS
 
 = Cara Menjalankan
-1. Clone repository dari GitHub.
-2. Buka folder project.
-3. Buka file `index.html` menggunakan browser.
-4. Calculator siap digunakan.
+1. Buka aplikasi Kalkulator Konversi Satuan.
+2. Masukkan nilai yang ingin dikonversikan.
+3. Pilih satuan awal.
+4. Pilih satuan tujuan.
+5. Klik tombol konversi.
+6. Hasil konversi akan ditampilkan.
+7. Riwayat konversi dapat dilihat pada bagian History.
 
-Anggota
+= Anggota
 * Shiren
 * Abrisam
 * sitisarah
@@ -46,6 +54,8 @@ Anggota
 * abiyyu
 
 = Kesimpulan
-Project Calculator dibuat sebagai aplikasi sederhana untuk membantu melakukan perhitungan matematika sekaligus menerapkan penggunaan
-HTML, CSS, JavaScript, dan Tailwind CSS dalam pembuatan aplikasi web.
+Project Kalkulator Konversi Satuan merupakan aplikasi yang dibuat untuk memudahkan pengguna dalam
+melakukan konversi berbagai satuan dengan cepat dan praktis. Aplikasi ini memiliki beberapa bagian
+utama, yaitu Calculator, Header, Footer, dan History. Melalui project ini, kami dapat menerapkan
+penggunaan HTML, CSS, JavaScript, dan Tailwind CSS dalam pembuatan aplikasi berbasis web.
 
