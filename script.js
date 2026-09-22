@@ -184,3 +184,26 @@ function clearHistory() {
         historyList.innerHTML = '';
     }
 }
+
+function switchTab(tab) {
+    const calcSection = document.getElementById('calcSection');
+    const historySection = document.getElementById('historySection');
+    const tabCalc = document.getElementById('tabCalc');
+    const tabHistory = document.getElementById('tabHistory');
+
+    if (!calcSection || !historySection || !tabCalc || !tabHistory) return;
+
+    if (tab === 'calc') {
+        calcSection.classList.remove('hidden');
+        historySection.classList.add('hidden');
+
+        tabCalc.className = 'border-b-2 border-violet-500 pb-1 text-sm font-medium text-violet-400 transition';
+        tabHistory.className = 'pb-1 text-sm font-medium text-zinc-400 hover:text-white transition';
+    } else if (tab === 'history') {
+        calcSection.classList.add('hidden');
+        historySection.classList.remove('hidden');
+
+        tabHistory.className = 'border-b-2 border-violet-500 pb-1 text-sm font-medium text-violet-400 transition';
+        tabCalc.className = 'pb-1 text-sm font-medium text-zinc-400 hover:text-white transition';
+    }
+}
