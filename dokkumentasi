@@ -28,9 +28,6 @@ Menampilkan riwayat konversi yang telah dilakukan oleh pengguna. Dengan fitur in
 = Header
 Bagian atas aplikasi yang menampilkan nama atau judul aplikasi serta membantu pengguna mengenali halaman yang sedang digunakan.
 
-= Footer
-Bagian bawah aplikasi yang berisi informasi tambahan mengenai aplikasi.
-
 = Bahasa Pemograman yang di gunakan
 * HTML
 * CSS
