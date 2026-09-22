@@ -271,6 +271,25 @@ case 'minute-second':
     result = input * 60;
     unit = 'detik';
     break;
+    case 'yard-meter':
+    result = input * 0.9144;
+    unit = 'm';
+    break;
+
+case 'meter-yard':
+    result = input / 0.9144;
+    unit = 'yard';
+    break;
+
+case 'inch-cm':
+    result = input * 2.54;
+    unit = 'cm';
+    break;
+
+case 'cm-inch':
+    result = input / 2.54;
+    unit = 'inch';
+    break;
 
         default:
             result = input;
