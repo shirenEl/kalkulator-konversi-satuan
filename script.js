@@ -184,3 +184,46 @@ function clearHistory() {
         historyList.innerHTML = '';
     }
 }
+function convertUnit() {
+    const input = parseFloat(document.getElementById('conversionInput').value);
+    const type = document.getElementById('conversionType').value;
+    const resultElement = document.getElementById('conversionResult');
+
+    if (isNaN(input)) {
+        resultElement.innerText = 'Masukkan nilai terlebih dahulu';
+        return;
+    }
+
+    let result;
+
+    switch (type) {
+        case 'km-m':
+            result = input * 1000;
+            break;
+
+        case 'm-km':
+            result = input / 1000;
+            break;
+
+        case 'kg-g':
+            result = input * 1000;
+            break;
+
+        case 'g-kg':
+            result = input / 1000;
+            break;
+
+        case 'l-ml':
+            result = input * 1000;
+            break;
+
+        case 'ml-l':
+            result = input / 1000;
+            break;
+
+        default:
+            result = input;
+    }
+
+    resultElement.innerText = result;
+}
