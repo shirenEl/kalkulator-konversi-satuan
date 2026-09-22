@@ -257,6 +257,20 @@ function convertUnit() {
             result = (input - 273.15) * 9 / 5 + 32;
             unit = '°F';
             break;
+            case 'hour-minute':
+    result = input * 60;
+    unit = 'menit';
+    break;
+
+case 'minute-hour':
+    result = input / 60;
+    unit = 'jam';
+    break;
+
+case 'minute-second':
+    result = input * 60;
+    unit = 'detik';
+    break;
 
         default:
             result = input;
