@@ -63,9 +63,7 @@ Pilih satuan yang digunakan sebagai satuan awal.
 
 Pilih satuan yang ingin digunakan sebagai hasil konversi.
 
-<p align="center">
-  <img src="images/langkah3.png" width="700">
-</p>
+![tampilan] (images/langkah3.png)
 
 ### 5. Klik tombol konversi
 
