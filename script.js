@@ -184,3 +184,119 @@ function clearHistory() {
         historyList.innerHTML = '';
     }
 }
+function convertUnit() {
+    const input = parseFloat(document.getElementById('conversionInput').value);
+    const type = document.getElementById('conversionType').value;
+    const resultElement = document.getElementById('conversionResult');
+
+    if (isNaN(input)) {
+        resultElement.innerText = 'Masukkan nilai terlebih dahulu';
+        return;
+    }
+
+    let result;
+    let unit;
+
+    switch (type) {
+        case 'km-m':
+            result = input * 1000;
+            unit = 'm';
+            break;
+
+        case 'm-km':
+            result = input / 1000;
+            unit = 'km';
+            break;
+
+        case 'kg-g':
+            result = input * 1000;
+            unit = 'g';
+            break;
+
+        case 'g-kg':
+            result = input / 1000;
+            unit = 'kg';
+            break;
+
+        case 'l-ml':
+            result = input * 1000;
+            unit = 'ml';
+            break;
+
+        case 'ml-l':
+            result = input / 1000;
+            unit = 'L';
+            break;
+
+        case 'c-f':
+            result = (input * 9 / 5) + 32;
+            unit = '°F';
+            break;
+
+        case 'f-c':
+            result = (input - 32) * 5 / 9;
+            unit = '°C';
+            break;
+
+        case 'c-k':
+            result = input + 273.15;
+            unit = 'K';
+            break;
+
+        case 'k-c':
+            result = input - 273.15;
+            unit = '°C';
+            break;
+
+        case 'f-k':
+            result = (input - 32) * 5 / 9 + 273.15;
+            unit = 'K';
+            break;
+
+        case 'k-f':
+            result = (input - 273.15) * 9 / 5 + 32;
+            unit = '°F';
+            break;
+            case 'hour-minute':
+    result = input * 60;
+    unit = 'menit';
+    break;
+
+case 'minute-hour':
+    result = input / 60;
+    unit = 'jam';
+    break;
+
+case 'minute-second':
+    result = input * 60;
+    unit = 'detik';
+    break;
+    case 'yard-meter':
+    result = input * 0.9144;
+    unit = 'm';
+    break;
+
+case 'meter-yard':
+    result = input / 0.9144;
+    unit = 'yard';
+    break;
+
+case 'inch-cm':
+    result = input * 2.54;
+    unit = 'cm';
+    break;
+
+case 'cm-inch':
+    result = input / 2.54;
+    unit = 'inch';
+    break;
+
+        default:
+            result = input;
+            unit = '';
+    }
+
+    result = parseFloat(result.toFixed(6));
+
+    resultElement.innerText = `${result} ${unit}`;
+}
