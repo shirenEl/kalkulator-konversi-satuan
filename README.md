@@ -98,3 +98,4 @@ Riwayat konversi dapat dilihat pada bagian **History**.
 ## Kesimpulan
 
 Project Kalkulator Konversi Satuan merupakan aplikasi yang dibuat untuk memudahkan pengguna dalam melakukan konversi berbagai satuan dengan cepat dan praktis. Aplikasi ini memiliki beberapa bagian utama, yaitu Calculator, Header, Footer, dan History. Melalui project ini, kami dapat menerapkan penggunaan HTML, CSS, JavaScript, dan Tailwind CSS dalam pembuatan aplikasi berbasis web.
+
