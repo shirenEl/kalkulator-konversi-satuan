@@ -62,7 +62,7 @@ Pilih satuan yang digunakan sebagai satuan awal.
 ### 4. Pilih satuan tujuan
 
 Pilih satuan yang ingin digunakan sebagai hasil konversi.
-![tampilan] (images/langkah3.png)
+
 
 <p align="center">
   <img src="./images/langkah3.png" width="700">
