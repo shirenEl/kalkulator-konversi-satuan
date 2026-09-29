@@ -44,7 +44,7 @@ Bagian atas aplikasi yang menampilkan nama atau judul aplikasi serta membantu pe
 Buka aplikasi melalui browser.
 
 <p align="center">
-  <img src="images/langkah1.png" width="700">
+  <img src="./images/langkah1.png" width="700">
 </p>
 
 ### 2. Masukkan nilai yang ingin dikonversikan
@@ -52,7 +52,7 @@ Buka aplikasi melalui browser.
 Masukkan angka atau nilai yang ingin dikonversikan pada kolom yang tersedia.
 
 <p align="center">
-  <img src="images/langkah2.png" width="700">
+  <img src="./images/langkah2.png" width="700">
 </p>
 
 ### 3. Pilih satuan awal
@@ -62,8 +62,12 @@ Pilih satuan yang digunakan sebagai satuan awal.
 ### 4. Pilih satuan tujuan
 
 Pilih satuan yang ingin digunakan sebagai hasil konversi.
-
 ![tampilan] (images/langkah3.png)
+
+<p align="center">
+  <img src="./images/langkah3.png" width="700">
+</p>
+
 
 ### 5. Klik tombol konversi
 
@@ -74,7 +78,7 @@ Klik tombol **Convert/Konversi** untuk melakukan proses konversi.
 Hasil konversi akan muncul pada bagian hasil.
 
 <p align="center">
-  <img src="images/hasil.png" width="700">
+  <img src="./images/hasil.png" width="700">
 </p>
 
 ### 7. Lihat riwayat konversi
@@ -82,7 +86,7 @@ Hasil konversi akan muncul pada bagian hasil.
 Riwayat konversi dapat dilihat pada bagian **History**.
 
 <p align="center">
-  <img src="images/history.png" width="700">
+  <img src="./images/history.png" width="700">
 </p>
 
 ## Anggota
