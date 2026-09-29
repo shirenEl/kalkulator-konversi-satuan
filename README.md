@@ -18,7 +18,7 @@ Digunakan untuk melakukan operasi matematika seperti:
 * Pengurangan (-)
 * Perkalian (×)
 * Pembagian (÷)
-* Sin Cos Tan
+* Sin Cos Tan Dan Mod
 * Menghapus angka atau perhitungan
 * Menampilkan hasil perhitungan
 
